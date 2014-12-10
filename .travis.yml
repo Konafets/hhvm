@@ -24,6 +24,7 @@ before_install:
   - brew tap homebrew/versions
   - brew tap mcuadros/homebrew-hhvm
   - brew install freetype gettext cmake git libtool mcrypt oniguruma re2c autoconf libelf readline automake mysql-connector-c pcre gd icu4c libmemcached pkg-config tbb imagemagick binutils curl imap-uw libxslt libevent sqlite homebrew/versions/gcc48 openssl 
+  - brew unlink boost
   - brew install --build-from-source --cc=gcc-4.9 glog boost
   #- brew install https://gist.github.com/slbmeh/9059260/raw/1cbf0f6f5639b4a066395bedb702cdd6bd895d15/libdwarf.rb https://gist.github.com/sgolemon/8fdc7e2afcd73a960b9c/raw/1211e21151ed3443dbc027e5383fb49e9eb1ab91/jemallocfb.rb
   
